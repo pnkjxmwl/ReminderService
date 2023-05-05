@@ -13,11 +13,11 @@ var cron = require('node-cron');
 
      app.listen(PORT,()=>{
 
-        // console.log('server started on ',PORT);
+        console.log('server started on ',PORT);
         // cron.schedule('*/1 * * * *', () => {
         //     console.log('running a task every  minute');
         //   });
-        
+
         // sendBasicEmail(
         //     'support@admin.com',
         //     'pankajsemwalpankaj123@gmail.com',
